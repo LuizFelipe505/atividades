@@ -73,4 +73,56 @@ header{
     text-align: center;
 }
 
+.informations {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    width: 55%;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.info-content a {
+  text-decoration: underline;
+}
+
+.info-content h2 {
+    text-align: start;
+}
+
+.info-content img {
+    border-radius: .5rem;
+}
+
+.info-content ul {
+  color: #f00;
+  list-style: disc;
+  padding: 1rem 4rem;
+}
+
+.info-content ul li {
+  color: rgb(0, 0, 0);
+  list-style: disc;
+  padding: 1rem;
+}
 
